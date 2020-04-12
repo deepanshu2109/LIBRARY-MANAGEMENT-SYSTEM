@@ -1,0 +1,345 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*----------------------library------------------------*/
+.library
+{
+    height:722px;
+    width: 1536px;
+    background-color:white;
+}
+header
+{
+    height: 150px;
+    width: 1536px;
+    background-color:#f6f6f6;
+}
+section
+{
+    height:550px;
+    width: 1536px;
+    background-color: white;
+}
+footer
+{
+    height:100px;
+    width: 1536px;
+    background-color: black;
+}
+.logo
+{
+     float: left;
+     padding-left: 50px;
+}
+.logo img
+{
+    padding-left: 200px;
+    max-width: 99px;
+    max-height: 70 px;
+}
+li a
+{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    }
+nav 
+{
+    float: right;
+    word-spacing: 50px;
+    padding: 20px;
+
+
+}
+nav li
+{
+    display: inline-block;
+    line-height: 100px;
+}
+header .booknav
+{
+
+}
+section .welcome
+{
+
+    background-image: url("images/1.jpg");
+    height: 550px;
+    margin-top: 0px;
+}
+.box
+{
+    height: 300px;
+    width:  450px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .6;
+    color: white;
+}
+.box2
+{
+    height: 500px;
+    width:  1000px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .6;
+    color: white;
+}
+.box3
+{
+     height: 300px;
+    width:  500px;
+    background-color: black;
+    margin: 48px auto;
+    opacity: .8;
+    color: white;
+}
+.login1
+{
+ background-image: url("images/1.jpg");
+    height: 550px;
+    margin-top: 0px
+}
+.login2
+{
+     height: 400px;
+    width:  1300px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .9;
+    color: green;
+}
+section .about
+{
+     background-image: url("images/1.jpg");
+}
+footer .signupf
+{
+     height:10px;
+    width: 1536px;
+    background-color: black;
+}
+.signup1
+{
+    background-image: url("images/1.jpg");
+    height: 550px;
+    margin-top: 0px
+}
+.signup2
+{
+    height: 600px;
+    width:  600px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .7;
+    color: white;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+}
